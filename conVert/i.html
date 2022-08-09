@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curs 6</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ebded7f87b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="brand">
+          <a href="index.html"><i class="fa-solid fa-tree-city"></i></a>
+          <form action="index.html" method="get" autocomplete="off">
+            <input
+              type="search"
+              id="topSearch"
+              name="s"
+              placeholder="Search..."
+            />
+            <i class="fa fa-search"></i>
+          </form>
+        </div>
+        <div class="navigation">
+          <a href="#"
+            ><img src="http://source.unsplash.com/40x40" alt="pic1"
+          /></a>
+          <a href="#"><i class="fa fa-bell"></i> <span>2</span></a>
+          <a href="#"><i class="fa fa-comments-o"></i><span>2</span></a>
+          <a href="#"><i class="fa fa-cog"></i></a>
+          <div class="dropdown notification" style="display: none">
+            <!-- start notification -->
+            <div class="single-notification">
+              <img src="http://source.unsplash.com/41x41" />
+              <div>
+                <p>Nume Prenume</p>
+                <p>A vizualizat</p>
+              </div>
+            </div>
+            <!-- end notification -->
+            <!-- start notification -->
+            <div class="single-notification">
+              <img src="http://source.unsplash.com/42x42" />
+              <div>
+                <p>Nume Prenume</p>
+                <p>A vizualizat</p>
+              </div>
+            </div>
+            <!-- end notification -->
+            <!-- start notification -->
+            <div class="single-notification">
+              <img src="http://source.unsplash.com/43x43" />
+              <div>
+                <p>Nume Prenume</p>
+                <p>A vizualizat</p>
+              </div>
+            </div>
+            <!-- end notification -->
+          </div>
+          <div class="dropdown messages" style="display: none">
+            <!-- start notification -->
+            <div class="single-notification">
+              <img src="http://source.unsplash.com/42x42" />
+              <div>
+                <p>Nume Prenume</p>
+                <p>A vizualizat</p>
+              </div>
+            </div>
+            <!-- end notification -->
+            <!-- start notification -->
+            <div class="single-notification">
+              <img src="http://source.unsplash.com/43x43" />
+              <div>
+                <p>Nume Prenume</p>
+                <p>A vizualizat</p>
+              </div>
+            </div>
+            <!-- end notification -->
+            <!-- start notification -->
+            <div class="single-notification">
+              <img src="https://source.unsplash.com/41x41" />
+              <div>
+                <p>Nume Prenume</p>
+                <p>A vizualizat</p>
+              </div>
+            </div>
+            <!-- end notification -->
+          </div>
+          <div class="dropdown settings" style="display: none">
+            <h3>Nume Prenume</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-user"></i>
+                  Account
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-handcuffs"></i>
+                  Security
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-person-through-window"></i>
+                  Log out
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container content">
+      <aside>
+        <div class="sticky">
+          <div class="user-info">
+            <a href="#">
+              <img src="https://source.unsplash.com/80x80" alt="Nume Prenume" />
+            </a>
+            <div>
+              <a href="#" class="user-name">First name Last name</a>
+              <a href="#" class="job-filter">Netherlands</a>
+            </div>
+          </div>
+          <ul class="filters">
+            <li>
+              <a href="#" class="active">
+                <i class="fa fa-earth-europe"></i>
+                <span>Rotterdam</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-html5"></i>
+                <span>Ocupation: Front-end Developer</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-car-side"></i>
+                <span>Driver</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <!-- start single post -->
+        <article>
+          <div class="avatar">
+            <a href="#"><img src="https://source.unsplash.com/80x80" /></a>
+          </div>
+          <div class="post">
+            <div class="top_header">
+              <div class="post-user-info">
+                <p>First Name Last name</p>
+                <span>10/06/2022</span>
+                <i class="fa fa-circle"></i>
+                <span> status </span>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-v"> </i>
+                <div class="dropdown">
+                  <ul>
+                    <li><a href="#">Save</a></li>
+                    <li><a href="#">Remove from feed</a></li>
+                    <li><a href="#">Report</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="post-content">
+              <!-- content -->
+              <img src="img/pexels-markus-spiske-2990650.jpeg" alt="climate" />
+              <video autoplay controls loop muted>
+                <source
+                  src="videos/production ID_4884642.webm"
+                  type="video/webm"
+                />
+                <source
+                  src="videos/production ID_4884642.ogv"
+                  type="video/ogv"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                HTML5 video not supported
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus nostrum dolores unde dolorem veritatis, saepe
+                consectetur repellendus error odio vitae, fugit laudantium vel
+                asperiores repudiandae doloribus ullam debitis aliquam beatae.
+              </p>
+            </div>
+            <div class="interactibles">
+              <div class="buttons">
+                <a href="#"><i class="fa fa-eye"></i> <span>Seen</span></a>
+                <a href="#"
+                  ><i class="fa fa-walkie-talkie"></i>
+                  <span>Talk</span>
+                </a>
+                <a href="#"><i class="fa fa-seedling"></i><span>Share</span></a>
+              </div>
+              <div class="comments">
+                <div class="new-comment">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <textarea placeholder="Leave a comment"></textarea>
+                </div>
+                <div class="all-comments">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <div class="comment-content">
+                    <p>Nume Prenume</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Asperiores, cupiditate modi possimus quos adipisci
+                      similique esse fugit quas natus animi!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- end single post -->
+        <!-- start single post -->
+        <article>
+          <div class="avatar">
+            <a href="#"><img src="https://source.unsplash.com/80x80" /></a>
+          </div>
+          <div class="post">
+            <div class="top_header">
+              <div class="post-user-info">
+                <p>First Name Last name</p>
+                <span>10/06/2022</span>
+                <i class="fa fa-circle"></i>
+                <span> status </span>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-v"> </i>
+                <div class="dropdown">
+                  <ul>
+                    <li><a href="#">Save</a></li>
+                    <li><a href="#">Remove from feed</a></li>
+                    <li><a href="#">Report</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="post-content">
+              <!-- content -->
+              <img src="img/pexels-markus-spiske-2990650.jpeg" alt="climate" />
+              <video autoplay controls loop muted>
+                <source
+                  src="videos/production ID_4884642.webm"
+                  type="video/webm"
+                />
+                <source
+                  src="videos/production ID_4884642.ogv"
+                  type="video/ogv"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                HTML5 video not supported
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus nostrum dolores unde dolorem veritatis, saepe
+                consectetur repellendus error odio vitae, fugit laudantium vel
+                asperiores repudiandae doloribus ullam debitis aliquam beatae.
+              </p>
+            </div>
+            <div class="interactibles">
+              <div class="buttons">
+                <a href="#"><i class="fa fa-eye"></i> <span>Seen</span></a>
+                <a href="#"
+                  ><i class="fa fa-walkie-talkie"></i>
+                  <span>Talk</span>
+                </a>
+                <a href="#"><i class="fa fa-seedling"></i><span>Share</span></a>
+              </div>
+              <div class="comments">
+                <div class="new-comment">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <textarea placeholder="Leave a comment"></textarea>
+                </div>
+                <div class="all-comments">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <div class="comment-content">
+                    <p>Nume Prenume</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Asperiores, cupiditate modi possimus quos adipisci
+                      similique esse fugit quas natus animi!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- end single post -->
+        <!-- start single post -->
+        <article>
+          <div class="avatar">
+            <a href="#"><img src="https://source.unsplash.com/80x80" /></a>
+          </div>
+          <div class="post">
+            <div class="top_header">
+              <div class="post-user-info">
+                <p>First Name Last name</p>
+                <span>10/06/2022</span>
+                <i class="fa fa-circle"></i>
+                <span> status </span>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-v"> </i>
+                <div class="dropdown">
+                  <ul>
+                    <li><a href="#">Save</a></li>
+                    <li><a href="#">Remove from feed</a></li>
+                    <li><a href="#">Report</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="post-content">
+              <!-- content -->
+              <img src="img/pexels-markus-spiske-2990650.jpeg" alt="climate" />
+              <video autoplay controls loop muted>
+                <source
+                  src="videos/production ID_4884642.webm"
+                  type="video/webm"
+                />
+                <source
+                  src="videos/production ID_4884642.ogv"
+                  type="video/ogv"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                HTML5 video not supported
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus nostrum dolores unde dolorem veritatis, saepe
+                consectetur repellendus error odio vitae, fugit laudantium vel
+                asperiores repudiandae doloribus ullam debitis aliquam beatae.
+              </p>
+            </div>
+            <div class="interactibles">
+              <div class="buttons">
+                <a href="#"><i class="fa fa-eye"></i> <span>Seen</span></a>
+                <a href="#"
+                  ><i class="fa fa-walkie-talkie"></i>
+                  <span>Talk</span>
+                </a>
+                <a href="#"><i class="fa fa-seedling"></i><span>Share</span></a>
+              </div>
+              <div class="comments">
+                <div class="new-comment">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <textarea placeholder="Leave a comment"></textarea>
+                </div>
+                <div class="all-comments">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <div class="comment-content">
+                    <p>Nume Prenume</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Asperiores, cupiditate modi possimus quos adipisci
+                      similique esse fugit quas natus animi!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- end single post -->
+        <!-- start single post -->
+        <article>
+          <div class="avatar">
+            <a href="#"><img src="https://source.unsplash.com/80x80" /></a>
+          </div>
+          <div class="post">
+            <div class="top_header">
+              <div class="post-user-info">
+                <p>First Name Last name</p>
+                <span>10/06/2022</span>
+                <i class="fa fa-circle"></i>
+                <span> status </span>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-v"> </i>
+                <div class="dropdown">
+                  <ul>
+                    <li><a href="#">Save</a></li>
+                    <li><a href="#">Remove from feed</a></li>
+                    <li><a href="#">Report</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="post-content">
+              <!-- content -->
+              <img src="img/pexels-markus-spiske-2990650.jpeg" alt="climate" />
+              <video autoplay controls loop muted>
+                <source
+                  src="videos/production ID_4884642.webm"
+                  type="video/webm"
+                />
+                <source
+                  src="videos/production ID_4884642.ogv"
+                  type="video/ogv"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                HTML5 video not supported
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus nostrum dolores unde dolorem veritatis, saepe
+                consectetur repellendus error odio vitae, fugit laudantium vel
+                asperiores repudiandae doloribus ullam debitis aliquam beatae.
+              </p>
+            </div>
+            <div class="interactibles">
+              <div class="buttons">
+                <a href="#"><i class="fa fa-eye"></i> <span>Seen</span></a>
+                <a href="#"
+                  ><i class="fa fa-walkie-talkie"></i>
+                  <span>Talk</span>
+                </a>
+                <a href="#"><i class="fa fa-seedling"></i><span>Share</span></a>
+              </div>
+              <div class="comments">
+                <div class="new-comment">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <textarea placeholder="Leave a comment"></textarea>
+                </div>
+                <div class="all-comments">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <div class="comment-content">
+                    <p>Nume Prenume</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Asperiores, cupiditate modi possimus quos adipisci
+                      similique esse fugit quas natus animi!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- end single post -->
+        <!-- start single post -->
+        <article>
+          <div class="avatar">
+            <a href="#"><img src="https://source.unsplash.com/80x80" /></a>
+          </div>
+          <div class="post">
+            <div class="top_header">
+              <div class="post-user-info">
+                <p>First Name Last name</p>
+                <span>10/06/2022</span>
+                <i class="fa fa-circle"></i>
+                <span> status </span>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-v"> </i>
+                <div class="dropdown">
+                  <ul>
+                    <li><a href="#">Save</a></li>
+                    <li><a href="#">Remove from feed</a></li>
+                    <li><a href="#">Report</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="post-content">
+              <!-- content -->
+              <img src="img/pexels-markus-spiske-2990650.jpeg" alt="climate" />
+              <video autoplay controls loop muted>
+                <source
+                  src="videos/production ID_4884642.webm"
+                  type="video/webm"
+                />
+                <source
+                  src="videos/production ID_4884642.ogv"
+                  type="video/ogv"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                HTML5 video not supported
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus nostrum dolores unde dolorem veritatis, saepe
+                consectetur repellendus error odio vitae, fugit laudantium vel
+                asperiores repudiandae doloribus ullam debitis aliquam beatae.
+              </p>
+            </div>
+            <div class="interactibles">
+              <div class="buttons">
+                <a href="#"><i class="fa fa-eye"></i> <span>Seen</span></a>
+                <a href="#"
+                  ><i class="fa fa-walkie-talkie"></i>
+                  <span>Talk</span>
+                </a>
+                <a href="#"><i class="fa fa-seedling"></i><span>Share</span></a>
+              </div>
+              <div class="comments">
+                <div class="new-comment">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <textarea placeholder="Leave a comment"></textarea>
+                </div>
+                <div class="all-comments">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <div class="comment-content">
+                    <p>Nume Prenume</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Asperiores, cupiditate modi possimus quos adipisci
+                      similique esse fugit quas natus animi!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- end single post -->
+        <!-- start single post -->
+        <article>
+          <div class="avatar">
+            <a href="#"><img src="https://source.unsplash.com/80x80" /></a>
+          </div>
+          <div class="post">
+            <div class="top_header">
+              <div class="post-user-info">
+                <p>First Name Last name</p>
+                <span>10/06/2022</span>
+                <i class="fa fa-circle"></i>
+                <span> status </span>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-v"> </i>
+                <div class="dropdown">
+                  <ul>
+                    <li><a href="#">Save</a></li>
+                    <li><a href="#">Remove from feed</a></li>
+                    <li><a href="#">Report</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="post-content">
+              <!-- content -->
+              <img src="img/pexels-markus-spiske-2990650.jpeg" alt="climate" />
+              <video autoplay controls loop muted>
+                <source
+                  src="videos/production ID_4884642.webm"
+                  type="video/webm"
+                />
+                <source
+                  src="videos/production ID_4884642.ogv"
+                  type="video/ogv"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="videos/production ID_4884642.mp4"
+                  type="video/mp4"
+                />
+                HTML5 video not supported
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus nostrum dolores unde dolorem veritatis, saepe
+                consectetur repellendus error odio vitae, fugit laudantium vel
+                asperiores repudiandae doloribus ullam debitis aliquam beatae.
+              </p>
+            </div>
+            <div class="interactibles">
+              <div class="buttons">
+                <a href="#"><i class="fa fa-eye"></i> <span>Seen</span></a>
+                <a href="#"
+                  ><i class="fa fa-walkie-talkie"></i>
+                  <span>Talk</span>
+                </a>
+                <a href="#"><i class="fa fa-seedling"></i><span>Share</span></a>
+              </div>
+              <div class="comments">
+                <div class="new-comment">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <textarea placeholder="Leave a comment"></textarea>
+                </div>
+                <div class="all-comments">
+                  <a href="#"
+                    ><img src="https://source.unsplash.com/80x80"
+                  /></a>
+                  <div class="comment-content">
+                    <p>Nume Prenume</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Asperiores, cupiditate modi possimus quos adipisci
+                      similique esse fugit quas natus animi!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- end single post -->
+      </main>
+      <aside class="hide-mobile">
+        <div class="sticky">
+          <div class="ads">
+            <img
+              src="https://source.unsplash.com/280x280"
+              alt="Left img"
+              class="img-responsive"
+            />
+          </div>
+          <ul class="footer">
+            <li><a href="#"></a>privacy policy</li>
+            <li><a href="#"></a>careers</li>
+            <li><a href="#">contact support</a></li>
+            <li><a href="#">help</a></li>
+            <li><a href="#">about</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
